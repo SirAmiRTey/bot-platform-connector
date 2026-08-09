@@ -1,0 +1,234 @@
+# Bot Platform Connector - Persian Translation
+# Copyright (C) 2024 Bot Platform Team
+# This file is distributed under the same license as the bot-platform-connector package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bot Platform Connector 1.0.0\n"
+"Report-Msgid-Bugs-To: https://botplatform.example.com\n"
+"POT-Creation-Date: 2024-01-01 00:00+0330\n"
+"PO-Revision-Date: 2024-01-01 00:00+0330\n"
+"Last-Translator: Bot Platform Team <info@botplatform.example.com>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Manual\n"
+"X-Domain: bot-platform-connector\n"
+
+#: bot-platform-connector.php
+msgid "این پلاگین نیازمند نصب و فعال‌سازی ووکامرس است."
+msgstr ""
+
+#: bot-platform-connector.php
+msgid "خطای فعال‌سازی"
+msgstr ""
+
+#: bot-platform-connector.php
+msgid "تنظیمات"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "نوع ربات"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "دانلودی"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "اشتراکی"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "نوع محصول را مشخص کنید: دانلودی (کد منبع) یا اشتراکی (میزبانی)"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "مدت زمان اشتراک (روز)"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "برای محصولات دانلودی مقدار ۰ وارد کنید. برای اشتراکی، تعداد روزهای اعتبار را وارد کنید."
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "شناسه محصول در لاراول"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "مثلاً: ۱۲۳"
+msgstr ""
+
+#: includes/class-variation-fields.php
+msgid "شناسه محصول در سیستم بک‌اند لاراول را وارد کنید."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات ربات پلتفرم"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ربات پلتفرم"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات اتصال"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "آدرس API بک‌اند"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "کلید امنیتی HMAC"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات تمدید"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "مبلغ پایه هر ماه (تومان)"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تخفیف ۳ ماهه (درصد)"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تخفیف ۶ ماهه (درصد)"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تخفیف ۱۲ ماهه (درصد)"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات ایمیل"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ارسال ایمیل هشدار"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "هشدار ۷ روز قبل"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "هشدار ۳ روز قبل"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "هشدار روز انقضا"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات عمومی"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "همگام‌سازی خودکار هر"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "دقیقه"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات مربوط به اتصال به بک‌اند لاراول را وارد کنید."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "آدرس کامل API بک‌اند لاراول را بدون اسلش انتهایی وارد کنید."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "کلید امنیتی HMAC برای امضای درخواست‌ها به بک‌اند."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات مربوط به قیمت‌گذاری و تخفیف‌های تمدید اشتراک."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "مبلغ پایه تمدید اشتراک برای هر ماه به تومان."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "درصد تخفیف برای تمدید ۳ ماهه."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "درصد تخفیف برای تمدید ۶ ماهه."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "درصد تخفیف برای تمدید ۱۲ ماهه."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات مربوط به ارسال ایمیل‌های هشدار انقضا به کاربران."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "فعال‌سازی ارسال ایمیل‌های هشدار انقضا"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ارسال هشدار ۷ روز قبل از انقضا"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ارسال هشدار ۳ روز قبل از انقضا"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ارسال هشدار در روز انقضا"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تنظیمات عمومی و سیستمی پلاگین."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "فاصله زمانی بین همگام‌سازی خودکار با بک‌اند لاراول."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "خطای امنیتی: لطفاً دوباره تلاش کنید."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تخفیف ۳ ماهه نمی‌تواند بیشتر از تخفیف ۶ ماهه باشد."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "تخفیف ۶ ماهه نمی‌تواند بیشتر از تخفیف ۱۲ ماهه باشد."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "شما اجازه دسترسی به این صفحه را ندارید."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ذخیره تنظیمات اتصال"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ذخیره تنظیمات تمدید"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ذخیره تنظیمات ایمیل"
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "ذخیره تنظیمات عمومی"
+msgstr ""
+
+#: includes/class-database.php
+msgid "داده‌های ورودی نامعتبر است."
+msgstr ""
