@@ -706,5 +706,7 @@ class Bot_Platform_Connector_Admin_Settings {
     }
 }
 
-// ایجاد نمونه از کلاس
-new Bot_Platform_Connector_Admin_Settings();
+// ایجاد نمونه از کلاس فقط اگر قبلاً ایجاد نشده باشد
+if ( ! isset( $GLOBALS['bot_platform_connector_admin_settings'] ) ) {
+    $GLOBALS['bot_platform_connector_admin_settings'] = new Bot_Platform_Connector_Admin_Settings();
+}
