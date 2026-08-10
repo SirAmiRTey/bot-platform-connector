@@ -14,8 +14,9 @@ declare(strict_types=1);
  * Domain Path: /languages
  * Requires at least: 5.8
  * Requires PHP: 7.4
- * WC requires at least: 5.0
- * WC tested up to: 8.0
+ * Requires Plugins: woocommerce
+ * WC requires at least: 8.2
+ * WC tested up to: 9.0
  */
 
 // جلوگیری از دسترسی مستقیم
@@ -98,3 +99,12 @@ function bot_platform_connector_add_settings_link( $links ) {
     return $links;
 }
 add_filter( 'plugin_action_links_' . BOT_PLATFORM_CONNECTOR_PLUGIN_BASENAME, 'bot_platform_connector_add_settings_link' );
+
+/**
+ * اعلام سازگاری با ووکامرس HPOS (High-Performance Order Storage)
+ */
+add_action( 'before_woocommerce_init', function() {
+    if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+    }
+});
