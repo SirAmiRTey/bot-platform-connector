@@ -32,9 +32,9 @@ define( 'BOT_PLATFORM_CONNECTOR_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 /**
  * بارگذاری فایل‌های کلاس
  */
-require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'includes/class-database.php';
-require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'includes/class-variation-fields.php';
-require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'includes/class-admin-settings.php';
+require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'class-database.php';
+require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'class-variation-fields.php';
+require_once BOT_PLATFORM_CONNECTOR_PLUGIN_DIR . 'class-admin-settings.php';
 
 /**
  * بارگذاری دامنه ترجمه
