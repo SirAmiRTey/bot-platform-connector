@@ -47,7 +47,7 @@ function bot_platform_connector_load_textdomain() {
         dirname( BOT_PLATFORM_CONNECTOR_PLUGIN_BASENAME ) . '/languages'
     );
 }
-add_action( 'plugins_loaded', 'bot_platform_connector_load_textdomain' );
+add_action( 'init', 'bot_platform_connector_load_textdomain' );
 
 /**
  * هوک فعال‌سازی پلاگین - ایجاد جداول دیتابیس
