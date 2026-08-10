@@ -1,67 +1,68 @@
-```gitignore
-# Dependencies
-vendor/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-dist/
-build/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
+# Dependencies
+.venv/
+venv/
+node_modules/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
+.coverage
 
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Python specific
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyo
+*.pyd
 
-# PHP
-*.phar
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+*.bundle.js
 
-# Compiled and binary files
-*.class
-*.jar
-*.war
-*.ear
-*.dll
-*.so
-*.dylib
-
-# Archives
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -84,4 +85,3 @@ yarn-error.log*
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```

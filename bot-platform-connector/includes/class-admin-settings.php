@@ -16,6 +16,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+// بررسی وجود کلاس برای جلوگیری از تعریف مجدد
+if ( class_exists( 'Bot_Platform_Connector_Admin_Settings' ) ) {
+    return;
+}
+
 /**
  * کلاس مدیریت تنظیمات ادمین
  */
@@ -655,7 +660,7 @@ class Bot_Platform_Connector_Admin_Settings {
                 <?php
                 // تنظیمات اتصال
                 settings_fields( 'bot_platform_connection_group' );
-                do_settings_sections( $this->page_slug );
+                do_settings_sections( $this->page_slug, 'bot_platform_connection_section' );
                 
                 submit_button( __( 'ذخیره تنظیمات اتصال', 'bot-platform-connector' ) );
                 ?>
@@ -667,7 +672,7 @@ class Bot_Platform_Connector_Admin_Settings {
                 <?php
                 // تنظیمات تمدید
                 settings_fields( 'bot_platform_renewal_group' );
-                do_settings_sections( $this->page_slug );
+                do_settings_sections( $this->page_slug, 'bot_platform_renewal_section' );
                 
                 submit_button( __( 'ذخیره تنظیمات تمدید', 'bot-platform-connector' ) );
                 ?>
@@ -679,7 +684,7 @@ class Bot_Platform_Connector_Admin_Settings {
                 <?php
                 // تنظیمات ایمیل
                 settings_fields( 'bot_platform_email_group' );
-                do_settings_sections( $this->page_slug );
+                do_settings_sections( $this->page_slug, 'bot_platform_email_section' );
                 
                 submit_button( __( 'ذخیره تنظیمات ایمیل', 'bot-platform-connector' ) );
                 ?>
@@ -691,7 +696,7 @@ class Bot_Platform_Connector_Admin_Settings {
                 <?php
                 // تنظیمات عمومی
                 settings_fields( 'bot_platform_general_group' );
-                do_settings_sections( $this->page_slug );
+                do_settings_sections( $this->page_slug, 'bot_platform_general_section' );
                 
                 submit_button( __( 'ذخیره تنظیمات عمومی', 'bot-platform-connector' ) );
                 ?>
